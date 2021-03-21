@@ -20,4 +20,12 @@ public class Basic2 {
 	public void Demo5() {
 		System.out.println("infiniy Stojhjnes");
 	}
+	@Test
+	public void Demo56() {
+		System.out.println("infinihghjhjhjy Stojhjnes");
+	}
+	@Test
+	public void Demo57() {
+		System.out.println("jhgjhjhgjjjghjjghjghjgjg Stojhjnes");
+	}
 }
