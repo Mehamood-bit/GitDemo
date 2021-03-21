@@ -7,6 +7,9 @@ public class Basic2 {
 	@Test
 	public void Demo3() {
 		System.out.println("Thanos");
+		System.out.println("Auotmaiton");
+		System.out.println("testing");
+		System.out.println("APpium");
 	}
 
 	@Test
