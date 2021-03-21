@@ -17,4 +17,13 @@ public class Basic1 {
 	public void Demo2() {
 		System.out.println("After  test annotations");
 	}
+
+	@Test(groups= {"Smoke"})
+	public void Demo1() {
+		System.out.println("Heloioiuolo");
+		System.out.println("iuoio Cena");
+		System.out.println("Brock uioiuouo");
+	}
+
+
 }

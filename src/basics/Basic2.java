@@ -16,4 +16,8 @@ public class Basic2 {
 	public void Demo4() {
 		System.out.println("infiniy Stones");
 	}
+	@Test
+	public void Demo5() {
+		System.out.println("infiniy Stojhjnes");
+	}
 }
