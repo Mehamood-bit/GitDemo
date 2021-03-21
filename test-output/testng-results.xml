@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="10" passed="6" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-24T23:42:05 IST" name="Basic of TestNG" finished-at="2021-02-24T23:42:05 IST" duration-ms="74">
+    <groups>
+      <group name="Smoke">
+        <method signature="Basic1.Demo()[pri:0, instance:basics.Basic1@c03cf28]" name="Demo" class="basics.Basic1"/>
+        <method signature="Basic3.APICarLoan()[pri:0, instance:basics.Basic3@74455848]" name="APICarLoan" class="basics.Basic3"/>
+        <method signature="Basic3.WebCarLoan()[pri:0, instance:basics.Basic3@74455848]" name="WebCarLoan" class="basics.Basic3"/>
+        <method signature="Basic4.MobileHomeLoan()[pri:0, instance:basics.Basic4@e7edb54]" name="MobileHomeLoan" class="basics.Basic4"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2021-02-24T23:42:05 IST" name="Module1" finished-at="2021-02-24T23:42:05 IST" duration-ms="50">
+      <class name="basics.Basic2">
+        <test-method signature="Demo4()[pri:0, instance:basics.Basic2@1329eff]" started-at="2021-02-24T23:42:05 IST" name="Demo4" finished-at="2021-02-24T23:42:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo4 -->
+      </class> <!-- basics.Basic2 -->
+      <class name="basics.Basic1">
+        <test-method signature="Demo()[pri:0, instance:basics.Basic1@c03cf28]" started-at="2021-02-24T23:42:05 IST" name="Demo" finished-at="2021-02-24T23:42:05 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method is-config="true" signature="Demo2()[pri:0, instance:basics.Basic1@c03cf28]" started-at="2021-02-24T23:42:05 IST" name="Demo2" finished-at="2021-02-24T23:42:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo2 -->
+      </class> <!-- basics.Basic1 -->
+    </test> <!-- Module1 -->
+    <test started-at="2021-02-24T23:42:05 IST" name="Module2" finished-at="2021-02-24T23:42:05 IST" duration-ms="74">
+      <class name="basics.Basic4">
+        <test-method is-config="true" signature="APIHomeLoan()[pri:0, instance:basics.Basic4@e7edb54]" started-at="2021-02-24T23:42:05 IST" name="APIHomeLoan" finished-at="2021-02-24T23:42:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APIHomeLoan -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:basics.Basic4@e7edb54]" started-at="2021-02-24T23:42:05 IST" name="beforeclass" finished-at="2021-02-24T23:42:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:basics.Basic4@e7edb54]" started-at="2021-02-24T23:42:05 IST" name="beforemethod" finished-at="2021-02-24T23:42:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="MobileHomeLoan()[pri:0, instance:basics.Basic4@e7edb54]" started-at="2021-02-24T23:42:05 IST" name="MobileHomeLoan" finished-at="2021-02-24T23:42:05 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileHomeLoan -->
+        <test-method is-config="true" signature="afertest()[pri:0, instance:basics.Basic4@e7edb54]" started-at="2021-02-24T23:42:05 IST" name="afertest" finished-at="2021-02-24T23:42:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afertest -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:basics.Basic4@e7edb54]" started-at="2021-02-24T23:42:05 IST" name="beforemethod" finished-at="2021-02-24T23:42:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="WebHomeLoan()[pri:0, instance:basics.Basic4@e7edb54]" started-at="2021-02-24T23:42:05 IST" name="WebHomeLoan" finished-at="2021-02-24T23:42:05 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebHomeLoan -->
+        <test-method is-config="true" signature="afertest()[pri:0, instance:basics.Basic4@e7edb54]" started-at="2021-02-24T23:42:05 IST" name="afertest" finished-at="2021-02-24T23:42:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afertest -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:basics.Basic4@e7edb54]" started-at="2021-02-24T23:42:05 IST" name="afterclass" finished-at="2021-02-24T23:42:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- basics.Basic4 -->
+      <class name="basics.Basic3">
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:basics.Basic3@74455848]" started-at="2021-02-24T23:42:05 IST" name="beforetest" finished-at="2021-02-24T23:42:05 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="APICarLoan()[pri:0, instance:basics.Basic3@74455848]" started-at="2021-02-24T23:42:05 IST" name="APICarLoan" finished-at="2021-02-24T23:42:05 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APICarLoan -->
+        <test-method signature="WebCarLoan()[pri:0, instance:basics.Basic3@74455848]" started-at="2021-02-24T23:42:05 IST" name="WebCarLoan" finished-at="2021-02-24T23:42:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebCarLoan -->
+        <test-method signature="high(java.lang.String)[pri:0, instance:basics.Basic3@74455848]" started-at="2021-02-24T23:42:05 IST" name="high" finished-at="2021-02-24T23:42:05 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'URL' is required by @Test on method high but has not been marked @Optional or defined
+in C:\Users\91866\eclipse-workspace\TestNG\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URL' is required by @Test on method high but has not been marked @Optional or defined
+in C:\Users\91866\eclipse-workspace\TestNG\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:268)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:875)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:789)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- high -->
+        <test-method signature="MobileCarLoan()[pri:0, instance:basics.Basic3@74455848]" started-at="2021-02-24T23:42:05 IST" name="MobileCarLoan" finished-at="2021-02-24T23:42:05 IST" depends-on-methods="basics.Basic3.high" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Basic3.MobileCarLoan()[pri:0, instance:basics.Basic3@74455848] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Basic3.MobileCarLoan()[pri:0, instance:basics.Basic3@74455848] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileCarLoan -->
+        <test-method is-config="true" signature="aftersuite()[pri:0, instance:basics.Basic3@74455848]" started-at="2021-02-24T23:42:05 IST" name="aftersuite" finished-at="2021-02-24T23:42:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- basics.Basic3 -->
+    </test> <!-- Module2 -->
+  </suite> <!-- Basic of TestNG -->
+</testng-results>

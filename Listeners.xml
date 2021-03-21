@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Basic of TestNG">
+<listeners>
+<listener class-name="basics.Listeners"/>
+</listeners>
+	<test name="Module1">
+		<classes>
+			<class name="basics.Basics6" />
+		</classes>
+	</test>
+</suite> 

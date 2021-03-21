@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Basic of TestNG]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="Module2(failed)">
+    <classes>
+      <class name="basics.Basic3">
+        <methods>
+          <include name="high"/>
+          <include name="MobileCarLoan"/>
+          <include name="aftersuite"/>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- basics.Basic3 -->
+    </classes>
+  </test> <!-- Module2(failed) -->
+</suite> <!-- Failed suite [Basic of TestNG] -->

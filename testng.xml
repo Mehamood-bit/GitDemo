@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Basic of TestNG" parallel="tests" thread-count="2">
+	<test name="Module1">
+		<classes>
+			<class name="basics.Basic1" />
+			<class name="basics.Basic2">
+				<methods>
+					<include name="Demo4" />
+				</methods>
+			</class>
+
+		</classes>
+	</test>
+
+
+	<test name="Module2">
+		<classes>
+			<class name="basics.Basic3" />
+			<class name="basics.Basic4">
+				<methods>
+					<exclude name="APIHomeLoan" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> 
