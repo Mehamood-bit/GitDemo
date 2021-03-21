@@ -9,6 +9,8 @@ public class Basic1 {
 	@Test(groups= {"Smoke"})
 	public void Demo() {
 		System.out.println("Helolo");
+		System.out.println("John Cena");
+		System.out.println("Brock lesner");
 	}
 
 	@AfterTest
